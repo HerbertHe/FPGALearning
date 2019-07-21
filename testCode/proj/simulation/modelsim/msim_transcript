@@ -1,0 +1,58 @@
+# Reading D:/Altera/modelsim_ae/tcl/vsim/pref.tcl 
+# do testCode_run_msim_gate_verilog.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying D:\Altera\modelsim_ae\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\Altera\modelsim_ae\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+. {testCode_8_1200mv_85c_slow.vo}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module testCode
+# 
+# Top level modules:
+# 	testCode
+# 
+# vlog -vlog01compat -work work +incdir+D:/FPGACode/testCode/proj/../testbench {D:/FPGACode/testCode/proj/../testbench/testCode_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module testCode_tb
+# 
+# Top level modules:
+# 	testCode_tb
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs="+acc"  testCode_tb
+# vsim +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps testCode_tb 
+# //  ModelSim ALTERA 10.1d Nov  2 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading work.testCode_tb
+# Loading work.testCode
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading instances from testCode_8_1200mv_85c_v_slow.sdo
+# Loading timing data from testCode_8_1200mv_85c_v_slow.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testCode_tb File: D:/FPGACode/testCode/proj/../testbench/testCode_tb.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break in Module testCode_tb at D:/FPGACode/testCode/proj/../testbench/testCode_tb.v line 29
+# Simulation Breakpoint: Break in Module testCode_tb at D:/FPGACode/testCode/proj/../testbench/testCode_tb.v line 29
+# MACRO ./testCode_run_msim_gate_verilog.do PAUSED at line 17

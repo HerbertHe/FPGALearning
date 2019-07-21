@@ -1,0 +1,47 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\FPGACode\testCode\proj\simulation\modelsim
+vtestCode
+IoFW0KEU^E?`JBXLU;D65A0
+VcWT`QQ7iAoaC480@dmOh[1
+Z1 dD:\FPGACode\testCode\proj\simulation\modelsim
+w1563631916
+8D:/FPGACode/testCode/rtl/testCode.v
+FD:/FPGACode/testCode/rtl/testCode.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+ntest@code
+!i10b 1
+!s100 m;F<bSLXM9:ii@oLM_7302
+!s85 0
+!s108 1563634626.731000
+!s107 D:/FPGACode/testCode/rtl/testCode.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGACode/testCode/rtl|D:/FPGACode/testCode/rtl/testCode.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+D:/FPGACode/testCode/rtl -O0
+vtestCode_tb
+!i10b 1
+!s100 8T1o?aHK<PHlam8HOKUaQ2
+IoBPImlDMfnSEb2Lgja<PR3
+VnP0eCUg>Cl=::I9_I95k?3
+R1
+w1563634509
+8D:/FPGACode/testCode/proj/../testbench/testCode_tb.v
+FD:/FPGACode/testCode/proj/../testbench/testCode_tb.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1563634627.032000
+!s107 D:/FPGACode/testCode/proj/../testbench/testCode_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGACode/testCode/proj/../testbench|D:/FPGACode/testCode/proj/../testbench/testCode_tb.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/FPGACode/testCode/proj/../testbench -O0
+ntest@code_tb

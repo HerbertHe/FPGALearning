@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, D:/FPGACode/testCode/rtl/testCode.v
+source_file = 1, D:/FPGACode/testCode/testbench/testCode_tb.v
+source_file = 1, D:/FPGACode/testCode/proj/db/testCode.cbx.xml
+design_name = testCode
+instance = comp, \led_out~output , led_out~output, testCode, 1
+instance = comp, \a~input , a~input, testCode, 1
+instance = comp, \key_in~input , key_in~input, testCode, 1
+instance = comp, \b~input , b~input, testCode, 1
+instance = comp, \led_out~0 , led_out~0, testCode, 1
