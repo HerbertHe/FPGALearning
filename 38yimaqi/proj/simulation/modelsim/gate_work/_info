@@ -2,11 +2,11 @@ m255
 K3
 13
 cModel Technology
-Z0 dD:\FPGACode\38yimaqi\proj\simulation\modelsim
+Z0 dD:\FPGACode\FPGALearning\38yimaqi\proj\simulation\modelsim
 vyima38
 IYKRT4kEV_MN@hYAUS1H670
 V?8X=b^?3]GF1dgT2XQ0lN1
-Z1 dD:\FPGACode\38yimaqi\proj\simulation\modelsim
+Z1 dD:\FPGACode\FPGALearning\38yimaqi\proj\simulation\modelsim
 w1563679264
 8yima38_8_1200mv_85c_slow.vo
 Fyima38_8_1200mv_85c_slow.vo
@@ -18,28 +18,28 @@ Z3 o-vlog01compat -work work -O0
 !i10b 1
 !s100 ?9>^=jlh]ic0_f2Vji92D2
 !s85 0
-!s108 1563679296.758000
+!s108 1563682746.315000
 !s107 yima38_8_1200mv_85c_slow.vo|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|yima38_8_1200mv_85c_slow.vo|
 !s101 -O0
 !s92 -vlog01compat -work work +incdir+. -O0
 vyima38_tb
 !i10b 1
-!s100 j3hY81@m@HUkAz`a1NNE_1
-I4UaGnP2_Gdon1h93aAGRM2
+!s100 lC2J=NLSEg?[oBL4]1o0c2
+I[Wgm5:4?a=I2747`ag9=T3
 VamMn;<69H9j`6hhneSQ;X0
 R1
 w1563678867
-8D:/FPGACode/38yimaqi/proj/../testbench/yima38_tb.v
-FD:/FPGACode/38yimaqi/proj/../testbench/yima38_tb.v
+8D:/FPGACode/FPGALearning/38yimaqi/proj/../testbench/yima38_tb.v
+FD:/FPGACode/FPGALearning/38yimaqi/proj/../testbench/yima38_tb.v
 L0 3
 R2
 r1
 !s85 0
 31
-!s108 1563679297.035000
-!s107 D:/FPGACode/38yimaqi/proj/../testbench/yima38_tb.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGACode/38yimaqi/proj/../testbench|D:/FPGACode/38yimaqi/proj/../testbench/yima38_tb.v|
+!s108 1563682746.623000
+!s107 D:/FPGACode/FPGALearning/38yimaqi/proj/../testbench/yima38_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGACode/FPGALearning/38yimaqi/proj/../testbench|D:/FPGACode/FPGALearning/38yimaqi/proj/../testbench/yima38_tb.v|
 !s101 -O0
 R3
-!s92 -vlog01compat -work work +incdir+D:/FPGACode/38yimaqi/proj/../testbench -O0
+!s92 -vlog01compat -work work +incdir+D:/FPGACode/FPGALearning/38yimaqi/proj/../testbench -O0

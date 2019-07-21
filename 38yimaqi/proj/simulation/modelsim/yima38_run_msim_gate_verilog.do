@@ -7,7 +7,7 @@ vmap work gate_work
 
 vlog -vlog01compat -work work +incdir+. {yima38_8_1200mv_85c_slow.vo}
 
-vlog -vlog01compat -work work +incdir+D:/FPGACode/38yimaqi/proj/../testbench {D:/FPGACode/38yimaqi/proj/../testbench/yima38_tb.v}
+vlog -vlog01compat -work work +incdir+D:/FPGACode/FPGALearning/38yimaqi/proj/../testbench {D:/FPGACode/FPGALearning/38yimaqi/proj/../testbench/yima38_tb.v}
 
 vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs="+acc"  yima38_tb
 

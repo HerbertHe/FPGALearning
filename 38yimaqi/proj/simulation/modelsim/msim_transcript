@@ -18,7 +18,7 @@
 # Top level modules:
 # 	yima38
 # 
-# vlog -vlog01compat -work work +incdir+D:/FPGACode/38yimaqi/proj/../testbench {D:/FPGACode/38yimaqi/proj/../testbench/yima38_tb.v}
+# vlog -vlog01compat -work work +incdir+D:/FPGACode/FPGALearning/38yimaqi/proj/../testbench {D:/FPGACode/FPGALearning/38yimaqi/proj/../testbench/yima38_tb.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module yima38_tb
 # 
@@ -41,12 +41,10 @@
 # Loading cycloneive_ver.cycloneive_io_obuf
 # Loading cycloneive_ver.cycloneive_io_ibuf
 # Loading cycloneive_ver.cycloneive_lcell_comb
-# SDF 10.1d Compiler 2012.11 Nov  2 2012
-# 
 # Loading instances from yima38_8_1200mv_85c_v_slow.sdo
 # Loading timing data from yima38_8_1200mv_85c_v_slow.sdo
 # ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
-#    Time: 0 ps  Iteration: 0  Instance: /yima38_tb File: D:/FPGACode/38yimaqi/proj/../testbench/yima38_tb.v
+#    Time: 0 ps  Iteration: 0  Instance: /yima38_tb File: D:/FPGACode/FPGALearning/38yimaqi/proj/../testbench/yima38_tb.v
 # 
 # add wave *
 # view structure
@@ -54,6 +52,6 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# Break in Module yima38_tb at D:/FPGACode/38yimaqi/proj/../testbench/yima38_tb.v line 30
-# Simulation Breakpoint: Break in Module yima38_tb at D:/FPGACode/38yimaqi/proj/../testbench/yima38_tb.v line 30
+# Break in Module yima38_tb at D:/FPGACode/FPGALearning/38yimaqi/proj/../testbench/yima38_tb.v line 30
+# Simulation Breakpoint: Break in Module yima38_tb at D:/FPGACode/FPGALearning/38yimaqi/proj/../testbench/yima38_tb.v line 30
 # MACRO ./yima38_run_msim_gate_verilog.do PAUSED at line 17

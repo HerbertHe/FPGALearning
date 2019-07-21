@@ -5,9 +5,9 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vlog -vlog01compat -work work +incdir+D:/FPGACode/38yimaqi/rtl {D:/FPGACode/38yimaqi/rtl/yima38.v}
+vlog -vlog01compat -work work +incdir+D:/FPGACode/FPGALearning/38yimaqi/rtl {D:/FPGACode/FPGALearning/38yimaqi/rtl/yima38.v}
 
-vlog -vlog01compat -work work +incdir+D:/FPGACode/38yimaqi/proj/../testbench {D:/FPGACode/38yimaqi/proj/../testbench/yima38_tb.v}
+vlog -vlog01compat -work work +incdir+D:/FPGACode/FPGALearning/38yimaqi/proj/../testbench {D:/FPGACode/FPGALearning/38yimaqi/proj/../testbench/yima38_tb.v}
 
 vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  yima38_tb
 

@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\FPGACode\FPGALearning\jishuqi\proj\simulation\modelsim
+vjishuqi
+ID6JBZX801XCN=6:H9gB:^2
+V;DbcWG]VN`EDPcGlSK4RN1
+Z1 dD:\FPGACode\FPGALearning\jishuqi\proj\simulation\modelsim
+w1563722182
+8jishuqiproj_8_1200mv_85c_slow.vo
+Fjishuqiproj_8_1200mv_85c_slow.vo
+L0 31
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 3OS_9<e3aQ9XIPH=zFNKl1
+!s85 0
+!s108 1563722199.827000
+!s107 jishuqiproj_8_1200mv_85c_slow.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|jishuqiproj_8_1200mv_85c_slow.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vjishuqi_tb
+!i10b 1
+!s100 28XSH9nVnRz4`A0A<zN082
+INB40@JcM1^IZ^RlO`1iNo3
+VnTl<=6<U>6AEOBTDWD7dm3
+R1
+w1563720858
+8D:/FPGACode/FPGALearning/jishuqi/proj/../testbench/jishuqi_tb.v
+FD:/FPGACode/FPGALearning/jishuqi/proj/../testbench/jishuqi_tb.v
+L0 4
+R2
+r1
+!s85 0
+31
+!s108 1563722200.264000
+!s107 D:/FPGACode/FPGALearning/jishuqi/proj/../testbench/jishuqi_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGACode/FPGALearning/jishuqi/proj/../testbench|D:/FPGACode/FPGALearning/jishuqi/proj/../testbench/jishuqi_tb.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/FPGACode/FPGALearning/jishuqi/proj/../testbench -O0

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for testCode
-Sat Jul 20 23:51:04 2019
+Sun Jul 21 12:16:25 2019
 Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Full Version
 
 
@@ -41,7 +41,7 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sat Jul 20 23:51:04 2019       ;
+; Analysis & Synthesis Status        ; Successful - Sun Jul 21 12:16:25 2019       ;
 ; Quartus II 64-Bit Version          ; 13.0.0 Build 156 04/24/2013 SJ Full Version ;
 ; Revision Name                      ; testCode                                    ;
 ; Top-level Entity Name              ; testCode                                    ;
@@ -162,13 +162,13 @@ applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                      ;
-+----------------------------------+-----------------+------------------------+-------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path        ; Library ;
-+----------------------------------+-----------------+------------------------+-------------------------------------+---------+
-; ../rtl/testCode.v                ; yes             ; User Verilog HDL File  ; D:/FPGACode/testCode/rtl/testCode.v ;         ;
-+----------------------------------+-----------------+------------------------+-------------------------------------+---------+
++------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                   ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                     ; Library ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------+---------+
+; ../rtl/testCode.v                ; yes             ; User Verilog HDL File  ; D:/FPGACode/FPGALearning/testCode/rtl/testCode.v ;         ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------+---------+
 
 
 +---------------------------------------------------------+
@@ -241,12 +241,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.0 Build 156 04/24/2013 SJ Full Version
-    Info: Processing started: Sat Jul 20 23:51:02 2019
+    Info: Processing started: Sun Jul 21 12:16:24 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off testCode -c testCode
 Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
-Info (12021): Found 1 design units, including 1 entities, in source file /fpgacode/testcode/rtl/testcode.v
+Info (12021): Found 1 design units, including 1 entities, in source file /fpgacode/fpgalearning/testcode/rtl/testcode.v
     Info (12023): Found entity 1: testCode
-Info (12021): Found 1 design units, including 1 entities, in source file /fpgacode/testcode/testbench/testcode_tb.v
+Info (12021): Found 1 design units, including 1 entities, in source file /fpgacode/fpgalearning/testcode/testbench/testcode_tb.v
     Info (12023): Found entity 1: testCode_tb
 Info (12127): Elaborating entity "testCode" for the top level hierarchy
 Info (286030): Timing-Driven Synthesis is running
@@ -258,8 +258,8 @@ Info (21057): Implemented 5 device resources after synthesis - the final resourc
     Info (21061): Implemented 1 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 4633 megabytes
-    Info: Processing ended: Sat Jul 20 23:51:04 2019
-    Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:02
+    Info: Processing ended: Sun Jul 21 12:16:25 2019
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
 
 

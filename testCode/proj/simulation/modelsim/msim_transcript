@@ -1,4 +1,5 @@
 # Reading D:/Altera/modelsim_ae/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
 # do testCode_run_msim_gate_verilog.do 
 # if {[file exists gate_work]} {
 # 	vdel -lib gate_work -all
@@ -17,7 +18,7 @@
 # Top level modules:
 # 	testCode
 # 
-# vlog -vlog01compat -work work +incdir+D:/FPGACode/testCode/proj/../testbench {D:/FPGACode/testCode/proj/../testbench/testCode_tb.v}
+# vlog -vlog01compat -work work +incdir+D:/FPGACode/FPGALearning/testCode/proj/../testbench {D:/FPGACode/FPGALearning/testCode/proj/../testbench/testCode_tb.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module testCode_tb
 # 
@@ -45,7 +46,7 @@
 # Loading instances from testCode_8_1200mv_85c_v_slow.sdo
 # Loading timing data from testCode_8_1200mv_85c_v_slow.sdo
 # ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
-#    Time: 0 ps  Iteration: 0  Instance: /testCode_tb File: D:/FPGACode/testCode/proj/../testbench/testCode_tb.v
+#    Time: 0 ps  Iteration: 0  Instance: /testCode_tb File: D:/FPGACode/FPGALearning/testCode/proj/../testbench/testCode_tb.v
 # 
 # add wave *
 # view structure
@@ -53,6 +54,6 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# Break in Module testCode_tb at D:/FPGACode/testCode/proj/../testbench/testCode_tb.v line 29
-# Simulation Breakpoint: Break in Module testCode_tb at D:/FPGACode/testCode/proj/../testbench/testCode_tb.v line 29
+# Break in Module testCode_tb at D:/FPGACode/FPGALearning/testCode/proj/../testbench/testCode_tb.v line 29
+# Simulation Breakpoint: Break in Module testCode_tb at D:/FPGACode/FPGALearning/testCode/proj/../testbench/testCode_tb.v line 29
 # MACRO ./testCode_run_msim_gate_verilog.do PAUSED at line 17

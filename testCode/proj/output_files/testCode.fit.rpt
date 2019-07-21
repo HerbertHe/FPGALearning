@@ -1,5 +1,5 @@
 Fitter report for testCode
-Sat Jul 20 23:51:10 2019
+Sun Jul 21 12:16:30 2019
 Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Full Version
 
 
@@ -63,7 +63,7 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Sat Jul 20 23:51:10 2019       ;
+; Fitter Status                      ; Successful - Sun Jul 21 12:16:30 2019       ;
 ; Quartus II 64-Bit Version          ; 13.0.0 Build 156 04/24/2013 SJ Full Version ;
 ; Revision Name                      ; testCode                                    ;
 ; Top-level Entity Name              ; testCode                                    ;
@@ -150,12 +150,12 @@ applicable agreement for further details.
 ; Number detected on machine ; 8           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.75        ;
+; Average used               ; 1.00        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;  25.0%      ;
+;     Processors 2-4         ; < 0.1%      ;
 ;     Processors 5-8         ;   0.0%      ;
 +----------------------------+-------------+
 
@@ -207,7 +207,7 @@ applicable agreement for further details.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in D:/FPGACode/testCode/proj/output_files/testCode.pin.
+The pin-out file can be found in D:/FPGACode/FPGALearning/testCode/proj/output_files/testCode.pin.
 
 
 +--------------------------------------------------------------------+
@@ -919,23 +919,23 @@ Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
     Info (170200): Optimizations that may affect the design's timing were skipped
-Info (11888): Total time spent on timing analysis during the Fitter is 0.14 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.17 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
-Info (144001): Generated suppressed messages file D:/FPGACode/testCode/proj/output_files/testCode.fit.smsg
+Info (144001): Generated suppressed messages file D:/FPGACode/FPGALearning/testCode/proj/output_files/testCode.fit.smsg
 Info: Quartus II 64-Bit Fitter was successful. 0 errors, 3 warnings
-    Info: Peak virtual memory: 5376 megabytes
-    Info: Processing ended: Sat Jul 20 23:51:11 2019
-    Info: Elapsed time: 00:00:06
-    Info: Total CPU time (on all processors): 00:00:07
+    Info: Peak virtual memory: 5373 megabytes
+    Info: Processing ended: Sun Jul 21 12:16:31 2019
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:06
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in D:/FPGACode/testCode/proj/output_files/testCode.fit.smsg.
+The suppressed messages can be found in D:/FPGACode/FPGALearning/testCode/proj/output_files/testCode.fit.smsg.
 
 
